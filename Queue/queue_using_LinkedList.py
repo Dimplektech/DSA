@@ -82,8 +82,3 @@ q.is_empty()
 print(q.size())
 print(q.rear_peek())
 print(q.front_peek())
-
-
-
-
-        
