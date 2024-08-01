@@ -136,6 +136,7 @@ class Dictionary:
     def __delitem__(self, key):
         bucket_index = self.hash_function(key)
         self.buckets[bucket_index].remove(key)
+        self.size -= 1
 
     def put(self, key, value):
         bucket_index = self.hash_function(key)
