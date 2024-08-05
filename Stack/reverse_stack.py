@@ -37,7 +37,7 @@ class Stack:
 
 def reverse_string(string):
     s = Stack()
-    for i  in range(len(string)):
+    for i in range(len(string)):
         print(string[i])
         s.add_values(string[i])
 
